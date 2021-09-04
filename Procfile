@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.edu.co.httpServer.HttpServer
+web: java -Dserver.port=$PORT -cp target/classes:target/dependency/* edu.escuelaing.edu.co.httpServer.HttpServer
